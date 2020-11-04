@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b7c3073f9c044f1f9bec844447a8a017" Name="Diagram1" >
+        <EntityTypeShape EntityType="DataModel.Users" Width="1.75" PointX="1.75" PointY="1.125" />
+        <EntityTypeShape EntityType="DataModel.Commentaire_Note" Width="1.5" PointX="4.625" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModel.Film" Width="1.875" PointX="7.875" PointY="1.125" />
+        <AssociationConnector Association="DataModel.FilmCommentaire_Note" />
+        <AssociationConnector Association="DataModel.UsersCommentaire_Note" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
